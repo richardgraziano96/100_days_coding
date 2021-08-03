@@ -12,13 +12,14 @@ bmi = (float(weight) / float(height) ** 2)
 
 if bmi <= 18.4 :
     print("You are underweight.\n")
-elif 18.5 <= bmi <= 24.9 :
+elif bmi <= 24.9 :
     print("You are a normal weight.\n")
-elif 25.0 <= bmi <= 29.9 :
+elif bmi <= 29.9 :
     print("You are overweight.\n")
-elif bmi > 30.0 :
+elif bmi <= 35.0 :
     print("You are obese.\n")
-
+else:
+    print("You are clinically obese.")
 ## Converts the float to an int to print
 bmi = int(bmi)
 
