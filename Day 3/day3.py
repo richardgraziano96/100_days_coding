@@ -4,13 +4,23 @@ height = int(input("What is your height in cm? "))
 age = int(input("How old are you? "))
 ''' Throws a condition that if the user is not EQUAL TO or GREATER THAN 120 they cannot
 ride this ride. '''
+cost = 0
 if height >= 120:
     print("You can ride this ride.")
     if age < 12:
-        print("You must pay $5.")
+        cost = 5
+        print(f"You must pay ${cost}.")
     elif age <= 18:
-        print("You must pay $7.")
+        cost = 7
+        print(f"You must pay ${cost}.")
     else:
-        print("You must pay $12.")
+        cost = 12
+        print(f"You must pay ${cost}.")
+    photos = input("Do you want photos? ")
+    if photos == "Yes" or "yes":
+        cost = cost + 3
+        print(f"Your total cost is ${cost}")
+    else:
+        print(f"Your total cost is ${cost}")
 else:
 	print("You cannot ride this ride.")
