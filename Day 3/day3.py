@@ -9,15 +9,18 @@ if height >= 120:
     print("You can ride this ride.")
     if age < 12:
         cost = 5
-        print(f"You must pay ${cost}.")
+        print(f"You must pay ${cost}")
     elif age <= 18:
         cost = 7
-        print(f"You must pay ${cost}.")
+        print(f"You must pay ${cost}")
+    elif age >= 45 and age <= 55:
+        cost = 0
+        print(f"You must pay ${cost}")
     else:
         cost = 12
-        print(f"You must pay ${cost}.")
-    photos = input("Do you want photos? Please enter 'yes' or 'no' ")
-    if photos.lower == "yes":
+        print(f"You must pay ${cost}")
+    photos = input("Do you want photos? Please enter 'yes' or 'no' ").lower()
+    if photos == "yes":
         cost = cost + 3
         print(f"Your total cost is ${cost}")
     else:

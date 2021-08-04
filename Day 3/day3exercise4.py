@@ -14,23 +14,23 @@ cost = 0
 
 ## Start if statements. Pretty straightforward. Only need one elif, this isn't userproof
 ## but it works.
-if size == "S":
+if size.upper == "S":
     cost = 15
-    if add_pepperoni == "Y":
+    if add_pepperoni.upper == "Y":
         cost = cost + 2
-    if extra_cheese == "Y":
+    if extra_cheese.upper == "Y":
         cost = cost + 1
-elif size == "M":
+elif size.upper == "M":
     cost = 20
-    if add_pepperoni == "Y":
+    if add_pepperoni.upper == "Y":
         cost = cost + 3
-    if extra_cheese == "Y":
+    if extra_cheese.upper == "Y":
         cost = cost + 1
 else:
     cost = 25
-    if add_pepperoni == "Y":
+    if add_pepperoni.upper == "Y":
         cost = cost + 3
-    if extra_cheese == "Y":
+    if extra_cheese.upper == "Y":
         cost = cost + 1
 
 ## Print total

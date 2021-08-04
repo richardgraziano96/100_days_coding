@@ -14,21 +14,24 @@ while True:
     total_bill = float(input("How much was the total bill? $"))
     if total_bill <= 0:
         print("Please enter a positive number not equal to 0.")
-    break
+    else:
+        break
 
 ## Must be a positive number NOT equal to 0
 while True:
     total_people = int(input("How many people are splitting the bill? "))
     if total_people <= 0:
         print("Please enter a positive number not equal to 0.")
-    break
+    else:
+        break
 
 ## Must be a positive number OR 0
 while True:
     tip_percent = int(input("What percent tip would you like to give? "))
     if tip_percent < 0:
         print("Please enter a positive number OR 0")
-    break
+    else:
+        break
 
 ## Calculate the way to split the bill equally according to the participants
 final_payment = round((total_bill + (total_bill * (tip_percent / 100))) / total_people , 2) 
