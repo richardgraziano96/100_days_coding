@@ -23,6 +23,7 @@ average_height = total_height / student_count
 #Round the average height
 whole_height = round(average_height)
 
+#Prints results
 print("The total number of the student is: " , student_count
 , "\n The total height of the whole class is: " , total_height 
 , "\n The average height of the student is: " , whole_height)
