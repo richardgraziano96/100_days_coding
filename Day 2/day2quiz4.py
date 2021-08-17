@@ -5,11 +5,11 @@
 #HINT 1: https://www.google.com/search?q=how+to+round+number+to+2+decimal+places+python&oq=how+to+round+number+to+2+decimal
 #HINT 2: https://www.kite.com/python/answers/how-to-limit-a-float-to-two-decimal-places-in-python
 
-## Nice welcome message
+##Nice welcome message
 print("Welcome to the tip calculator.\n")
 
-## Start a loop until people follow the rules.
-## must be a positive number NOT equal to 0
+##Start a loop until people follow the rules.
+##must be a positive number NOT equal to 0
 while True:
     total_bill = float(input("How much was the total bill? $"))
     if total_bill <= 0:
@@ -17,7 +17,7 @@ while True:
     else:
         break
 
-## Must be a positive number NOT equal to 0
+##Must be a positive number NOT equal to 0
 while True:
     total_people = int(input("How many people are splitting the bill? "))
     if total_people <= 0:
@@ -25,7 +25,7 @@ while True:
     else:
         break
 
-## Must be a positive number OR 0
+##Must be a positive number OR 0
 while True:
     tip_percent = int(input("What percent tip would you like to give? "))
     if tip_percent < 0:
@@ -33,8 +33,8 @@ while True:
     else:
         break
 
-## Calculate the way to split the bill equally according to the participants
-final_payment = round((total_bill + (total_bill * (tip_percent / 100))) / total_people , 2) 
+##Calculate the way to split the bill equally according to the participants
+final_payment = round((total_bill + (total_bill * (tip_percent / 100))) / total_people , 2)
 
-## Print the final result
+##Print the final result
 print(f"Each person must pay: ${final_payment}")
