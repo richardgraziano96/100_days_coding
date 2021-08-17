@@ -11,22 +11,22 @@ nr_numbers = int(input("How many numbers would you like?\n"))
 
 #Eazy Level - Order not randomised:
 #e.g. 4 letter, 2 symbol, 2 number = JduE&!91
-secret_phrase = ""
+code_holder = ""
 
 for char in range(1, nr_letters + 1):
-    secret_phrase += random.choice(letters)
+    code_holder += random.choice(letters)
 
 for char in range(1, nr_symbols + 1):
-    secret_phrase += random.choice(symbols)
+    code_holder += random.choice(symbols)
 
 for char in range(1, nr_numbers + 1):
-    secret_phrase += random.choice(numbers)
+    code_holder += random.choice(numbers)
     
-print(secret_phrase)
+print(code_holder)
 #Hard Level - Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 
-scrambling = list(secret_phrase)
+scrambling = list(code_holder)
 random.shuffle(scrambling)
 result = ''.join(scrambling)
 print(result)
