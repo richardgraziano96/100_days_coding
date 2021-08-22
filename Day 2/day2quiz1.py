@@ -1,4 +1,4 @@
-## Bolds the string to make more emphasis 
+## Bolds the string to make more emphasis
 class color:
     BOLD = '\033[1m'
     END = '\033[0m'
