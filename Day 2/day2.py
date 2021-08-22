@@ -11,7 +11,7 @@ print("Your name has " + new_num_char + " chars.")
 ##Checks the variable type and prints it
 #print(type(num_char))
 
-##Assigns float to a number 
+##Assigns float to a number
 #a = float(123)
 ##Prints the variable type
 #print(type(a))
