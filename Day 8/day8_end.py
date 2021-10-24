@@ -32,7 +32,7 @@ while not should_end:
   shift = int(input("Type the shift number:\n"))
   #TODO-2: What if the user enters a shift that is greater than the number of letters in the alphabet?
   #Try running the program and entering a shift number of 45.
-  #Add some code so that the program continues to work even if the user enters a shift number greater than 26. 
+  #Add some code so that the program continues to work even if the user enters a shift number greater than 26.
   #Hint: Think about how you can use the modulus (%).
   shift = shift % 26
 
