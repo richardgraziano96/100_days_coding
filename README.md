@@ -14,3 +14,5 @@ Loops (mostly for)
 Functions and Kernel
 ## Day 7
 Hangman 
+## Day 8
+Caeser Cipher and def values
