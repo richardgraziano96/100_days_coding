@@ -1,7 +1,7 @@
 student_scores = {
   "Harry": 81,
   "Ron": 78,
-  "Hermione": 99, 
+  "Hermione": 99,
   "Draco": 74,
   "Neville": 62,
 }
@@ -19,7 +19,7 @@ for student in student_scores:
         student_grades[student] = "Exceeds Expectations"
     elif score > 70:
         student_grades[student] = "Acceptable"
-    else: 
+    else:
         student_grades[student] = "Failed"
 
 
