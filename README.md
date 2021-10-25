@@ -18,3 +18,5 @@ Hangman
 Caeser Cipher and def values
 ## Day 9
 Secret Auction
+## Day 10
+Created a calculator
