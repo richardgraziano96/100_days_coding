@@ -16,3 +16,5 @@ Functions and Kernel
 Hangman 
 ## Day 8
 Caeser Cipher and def values
+## Day 9
+Secret Auction
