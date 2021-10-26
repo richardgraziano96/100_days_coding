@@ -22,3 +22,7 @@ Secret Auction
 Created a calculator
 ## Day 11
 Blackjack
+## Day 12
+Number Guesser
+## Day 13
+Debugging
