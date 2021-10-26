@@ -1,5 +1,4 @@
 # 100_days_coding
-A journey through udemys 100 days of coding.
 ## Day 1
 ### Variables in python and managing data
 ## Day 2
