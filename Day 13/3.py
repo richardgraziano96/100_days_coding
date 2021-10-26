@@ -11,4 +11,4 @@ if year % 4 == 0:
 else:
     print("Not leap year.")
 
-#NOTE added int before input (see 1.py)
+# NOTE added int before input (see 1.py)
