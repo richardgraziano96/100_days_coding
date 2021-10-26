@@ -7,7 +7,7 @@ HARD_LEVEL_TURNS = 5
 
 
 def check_answer(guess, answer, turns):
-    """checks answer against guess. Returns the number of turns remaining."""
+    """Checks answer against guess. Returns the number of turns remaining."""
     if guess > answer:
         print("Too high.")
         return turns - 1
